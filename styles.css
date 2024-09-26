@@ -63,6 +63,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px;
 }
 
+.text-heading{
+    font-family: "Bricolage Grotesque", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0px;
+}
+
 .logo{
     font-size: 48px;
     font-family: "Bricolage Grotesque", system-ui;
@@ -153,7 +161,7 @@ header{
     display: flex;
     flex-direction: row;
     gap: 2px;
-    padding: 0px;
+    padding: 4px 0px;
     align-items: center;
 
 }
@@ -230,7 +238,7 @@ header{
 }
 
 .content{
-    padding: 12px 0px;
+    padding: 4px 0px;
     gap: 8px;
 }
 
@@ -265,7 +273,7 @@ header{
 
 footer{
     background-color: var(--primary);
-    padding: 16px 16px 29px;
+    padding: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
