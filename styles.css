@@ -16,20 +16,43 @@ body {
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
     background-color: var(--bg);
     color: var(--font);
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     overflow: hidden;
-    padding: 16px 0px;
+    padding: 128px 0px;
     width: 100%;
+    gap: 8px;
+}
+
+.caption{
+    font-size: 14px;
+}
+.black{
+    color: var(--font);
+}
+.grey{
+    color: var(--caption);
+}
+.underline{
+    text-decoration: underline;
+}
+.heading{
+    font-size: 24px;
+    font-family: "Bricolage Grotesque", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0px;
 }
 
 .primary{
     color: var(--primary);
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Bricolage Grotesque", system-ui;
@@ -40,28 +63,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo{
-    display: flex;
-    height: 64px;
-    border-bottom: solid 1px var(--caption);
-    width: 100%;
-    padding: 0px 16px;
-    justify-content: center;
-}
-
-footer{
-    border-top: var(--caption) solid 1px;
-    position: fixed;
-    bottom: 0px;
-    left: 0;
-    right: 0;
-}
-
-.navbar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 6px 16px;
+    font-size: 48px;
+    font-family: "Bricolage Grotesque", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0px;
 }
 
 .icon{
@@ -74,12 +81,6 @@ p{
     padding: 0px;
 }
 
-.nav{
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    align-items: center;
-}
 
 a{
     text-decoration: none;
@@ -87,26 +88,86 @@ a{
     color: var(--caption-color);
 }
 
-.round-icon{
-    display: flex;
-    padding: 10px;
-    background-color: var(--primary);
-    border-radius: 9999px;
-    align-items: center;
-    justify-content: center;
-}
-
 .header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 16px;
+    padding: 4px 16px;
 }
 
-.promo{
+header{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 16px;
+    justify-content: space-between;
+    border-bottom: solid 1px var(--caption);
+    border-top: solid 1px var(--caption);
+}
+
+.selected{
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+.heading{
+    font-size: 24px;
+    font-family: "Bricolage Grotesque", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0px;
+}
+
+.welcome{
+    padding: 8px 16px 0px;
+}
+
+.action-button{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    padding: 4px 12px;
+
+}
+
+.button-text{
+    color: var(--primary);
+}
+
+.big-icon{
+    width: 20px;
+    height: auto;
+}
+
+.upcoming-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0px;
+}
+.upcoming{
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    padding: 16px;
+    padding: 16px 8px;
+    gap: 0px;
+    border: solid 1px var(--caption);
+}
+
+.upcoming-wrapper{
+    padding: 0px 16px 8px;
+}
+
+.selecter{
+    display: flex;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 12px;
 }

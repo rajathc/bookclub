@@ -10,49 +10,57 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet"></head>
 <body>
-    <div class="header">
-        <div class="left-header"><h1 class="primary">Home</h1></div>
-        <div class="right-header">
-            <a class="nav" href="index.html">
-                <img class="icon" src="assets/icons/message.svg">
-            </a>
+    <header>
+        <div class="header">
+            <div class="left-header"><div class="logo"><span class="primary">bee</span><span>blio</span></div></div>
+            <div class="right-header">
+                <a class="nav" href="index.html">
+                    <img class="icon" src="assets/icons/message.svg">
+                </a>
+            </div>
         </div>
+        <div class="links">
+            <a class="link selected" href="index.html">Home</a>
+            <a class="link" href="index.html">Clubs</a>
+            <a class="link" href="index.html">Read</a>
+            <a class="link" href="index.html">History</a>
+            <a class="link" href="index.html">Profile</a>
+        </div>
+    </header>
+
+    <div class="welcome">
+        <p class="heading">Welcome Rajath,</p>
     </div>
 
-    <div class="promo">
-        <h1>Welcome to <span class="primary">bee</span><span>blio!</span> </h1>
-        <h2>A straightforward, non-persuasive social media platform designed for book lovers.</h2>
-        <p>We’re a non-profit community—no notifications, and most importantly, no FOMO here! 😉</p>
-        <p>Join a book club, engage in discussions, invite your friends, and dive into a great read!</p>
-    </div>
+    <div class="upcoming-wrapper">
+        <div class="upcoming">
+            <div>
+                <p class="caption underline black">Upcoming</p>
+            </div>
+            <div>
+                <p class="heading">The Hound of the Baskervilles</p>
+            </div>
+            <div>
+                <p class="grey">by Arthur Conan Doyle</p>
+            </div>
+            <div>
+                <p class="caption grey">18/09/24 • 12:30PM IST</p>
+            </div>
 
-
-
-    <!-- navigation bar -->
-    <footer>
-        <div class="navbar">
-            <a class="nav" href="index.html">
-                <img class="icon" src="assets/icons/House.svg">
-                <!-- <p class="icon-text">Home</p> -->
-            </a>
-            <a class="nav" href="index.html">
-                <img class="icon" src="assets/icons/UsersThree.svg">
-                <!-- <p class="icon-text">Hives</p> -->
-            </a>
-            <a class="nav" href="index.html">
-                <div class="round-icon">
-                    <img class="icon" src="assets/icons/Book.svg">
+            <div class="upcoming-bottom">
+                <div>
+                    <p>beeblio team</p>
                 </div>
-            </a>
-            <a class="nav" href="index.html">
-                <img class="icon" src="assets/icons/Archive.svg">
-                <!-- <p class="icon-text">History</p> -->
-            </a>
-            <a class="nav" href="index.html">
-                <img class="icon" src="assets/icons/User.svg">
-                <!-- <p class="icon-text">Profile</p> -->
-            </a>
+                <div class="action-button">
+                    <p class="button-text">Join Discussion</p>
+                    <img class="big-icon" src="/assets/icons/arrow.svg">
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
+    <div class="selecter">
+        <p class="underline primary">Discover</p>
+        <p>Friends</p>
+    </div>
 </body>
 </html>
