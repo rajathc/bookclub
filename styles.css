@@ -4,6 +4,7 @@
     --font: #090909;
     --bg: #FDFFFC;
     --caption: #63768D;
+    --caption-light: #63768D20;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +24,7 @@ body {
     flex-direction: column;
     margin: 0 auto;
     overflow: hidden;
-    padding: 128px 0px;
+    padding: 128px 0px 0px;
     width: 100%;
     gap: 8px;
 }
@@ -101,6 +102,7 @@ header{
     top: 0px;
     left: 0;
     right: 0;
+    background-color: var(--bg);
 }
 
 .links{
@@ -135,7 +137,29 @@ header{
     flex-direction: row;
     gap: 4px;
     padding: 4px 12px;
+    align-items: center;
+}
 
+.action-button-small{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    padding: 0px 12px;
+    align-items: center;
+}
+
+.action-button-small-no-m{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    padding: 0px;
+    align-items: center;
+
+}
+
+.small-icon{
+    width: 14px;
+    height: 14px;
 }
 
 .button-text{
@@ -170,4 +194,78 @@ header{
     padding: 0px 16px;
     align-items: center;
     gap: 12px;
+}
+
+.post-top{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.post-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-details-top{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.profile-photo{
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    border: solid var(--primary) 2px;
+}
+
+.verification-badge{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.content{
+    padding: 12px 0px;
+    gap: 8px;
+}
+
+.post-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comments{
+    display: flex;
+    gap: 4px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 4px;
+    border-bottom: var(--caption-light) solid 1px;
+}
+
+.blog-heading{
+    font-weight: 700;
+}
+
+.blog-image{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: var(--primary);
+    padding: 16px 16px 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
