@@ -10,7 +10,7 @@
     align-items: center;
     overflow: scroll;
     --secondary-light: #33419520;
-    --primary-light: #FCB44A;
+    --primary-light: #FDAB31;
 }
 
 /* Global styles */
@@ -414,7 +414,7 @@ input[type=text] {
     height: 200px;
     background-color: var(--bg);
     border-radius: 9999px;
-    border: var(--caption) solid 4.5px;
+    border: var(--caption) solid 2px;
     display: flex;
     align-items: center;
     justify-content: center;
