@@ -15,7 +15,7 @@
 
 /* Global styles */
 body {
-    min-height: 100vh;
+    min-height: 100dvh;
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-weight: 400;
     font-style: normal;
